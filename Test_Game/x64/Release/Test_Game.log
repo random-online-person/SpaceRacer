@@ -1,0 +1,45 @@
+﻿  Camera.cpp
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Camera.cpp(62,46): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+  Input.cpp
+  Main.cpp
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Camera.cpp(63,48): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(151,44): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(151,44): warning C4244:         with
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(151,44): warning C4244:         [
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(151,44): warning C4244:             T=float
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(151,44): warning C4244:         ]
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(152,44): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(152,44): warning C4244:         with
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(152,44): warning C4244:         [
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(152,44): warning C4244:             T=float
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(152,44): warning C4244:         ]
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(153,44): warning C4244:  '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(153,44): warning C4244:         with
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(153,44): warning C4244:         [
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(153,44): warning C4244:             T=float
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(153,44): warning C4244:         ]
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(177,29): warning C4018:  '<': signed/unsigned mismatch
+  Mesh.cpp
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Main.cpp(278,30): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Mesh.cpp(55,55): warning C4244:  'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  Model.cpp
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Mesh.cpp(61,67): warning C4267:  'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Model.cpp(197,22): warning C4267:  'return': conversion from 'size_t' to 'int', possible loss of data
+  ObjectMovement.cpp
+C:\Users\yasht\Desktop\Test_Game\Test_Game\Model.cpp(201,35): warning C4267:  'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\yasht\Desktop\Test_Game\Test_Game\ObjectMovement.cpp(56,46): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+  Shader.cpp
+  Skybox.cpp
+C:\Users\yasht\Desktop\Test_Game\Test_Game\ObjectMovement.cpp(57,48): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+soil2-debug.lib(SOIL2.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  635 of 641 functions (99.1%) were compiled, the rest were copied from previous compilation.
+    628 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: PDB '㧀禊䁰禈ӽ' was not found with 'soil2-debug.lib(SOIL2.obj)' or at '㧀禊䁰禈ӽ'; linking object as if no debug info
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: PDB '' was not found with 'soil2-debug.lib(image_DXT.obj)' or at ''; linking object as if no debug info
+soil2-debug.lib(image_helper.obj) : warning LNK4099: PDB '' was not found with 'soil2-debug.lib(image_helper.obj)' or at ''; linking object as if no debug info
+soil2-debug.lib(wfETC.obj) : warning LNK4099: PDB '' was not found with 'soil2-debug.lib(wfETC.obj)' or at ''; linking object as if no debug info
+  Test_Game.vcxproj -> C:\Users\yasht\Desktop\Test_Game\x64\Release\Test_Game.exe

@@ -1,0 +1,37 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+Main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+Main.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+Main.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+Main.obj : error LNK2001: unresolved external symbol __imp____glewDeleteBuffers
+Main.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+Main.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+Main.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+Main.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+Main.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+Main.obj : error LNK2001: unresolved external symbol __imp____glewDeleteProgram
+Main.obj : error LNK2001: unresolved external symbol __imp____glewDeleteShader
+Main.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+Main.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramInfoLog
+Main.obj : error LNK2001: unresolved external symbol __imp____glewGetProgramiv
+Main.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+Main.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+Main.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+Main.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+Main.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+Main.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+Main.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+Main.obj : error LNK2001: unresolved external symbol __imp____glewDeleteVertexArrays
+Main.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+C:\Users\yasht\Desktop\Test_Game\Vendor\GLFW\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\yasht\Desktop\Test_Game\Vendor\GLEW\libs\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\yasht\Desktop\Test_Game\Debug\Test_Game.exe : fatal error LNK1120: 33 unresolved externals
